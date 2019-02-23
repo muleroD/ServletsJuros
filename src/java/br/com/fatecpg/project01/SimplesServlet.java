@@ -48,7 +48,7 @@ public class SimplesServlet extends HttpServlet {
             out.println("<br>");
             out.println("<br>");
 
-            out.println("Digite a taxa de juros: <input type='text' name='taxa' placeholder='0.0%'/>");
+            out.println("Digite a taxa de juros: <input type='text' name='taxa' placeholder='0.0'/>");
             out.println("<br>");
             out.println("<br>");
 

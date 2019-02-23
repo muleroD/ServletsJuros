@@ -63,7 +63,7 @@ public class CompostoServlet extends HttpServlet {
 
             if (request.getParameter("juros") != null) {
                 try {
-                    double montante = 0, juros = 0;
+                    double montante, juros;
 
                     double capital = Double.parseDouble(request.getParameter("capital"));
                     double taxa = Double.parseDouble(request.getParameter("taxa"));
